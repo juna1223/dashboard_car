@@ -14,7 +14,7 @@ def run_ml_app() :
     if gender == '남자' :
         gender_number = 1
     elif gender == '여자' :
-        gender_number = 0   
+        gender_number =  0  
     print(df.columns)
     age = st.number_input('나이 입력', min_value=df['Age'].min(), max_value=df['Age'].max())
     salary = st.number_input('연봉 입력', min_value=df['Annual Salary'].min(), max_value=df['Annual Salary'].max())
